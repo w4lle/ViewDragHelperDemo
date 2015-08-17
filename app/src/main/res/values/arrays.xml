@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="array_left_menu">
+        <item>普通拖拽</item>
+        <item>回弹效果</item>
+    </string-array>
+</resources>

@@ -1,0 +1,31 @@
+<com.w4lle.viewdraghelperdemo.View.LeftDrawerLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/drawerlayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <!--content-->
+    <RelativeLayout
+        android:clickable="true"
+        android:layout_width="match_parent"
+        android:background="#44ff0000"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/tv_content"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="hello world"
+            android:textSize="40sp"
+            android:layout_centerInParent="true"/>
+    </RelativeLayout>
+
+    <!--menu-->
+    <FrameLayout
+        android:id="@+id/layout_container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+    </FrameLayout>
+
+
+</com.w4lle.viewdraghelperdemo.View.LeftDrawerLayout>

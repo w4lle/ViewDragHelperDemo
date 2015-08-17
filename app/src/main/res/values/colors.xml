@@ -1,0 +1,6 @@
+<resources>
+    <color name="window_background">#f4f4f4</color>
+    <color name="actionbar_background">#18463c</color>
+    <color name="state_menu_item_selected">#afafaf</color>
+
+</resources>

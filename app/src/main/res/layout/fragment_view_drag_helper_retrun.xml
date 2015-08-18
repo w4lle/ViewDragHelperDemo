@@ -1,0 +1,34 @@
+<com.w4lle.viewdraghelperdemo.View.VDHReturnLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.w4lle.viewdraghelperdemo.Fragment.ViewDragHelperRetrunFragment">
+
+    <TextView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_gravity="center"
+        android:layout_margin="10dp"
+        android:background="#44ffaa"
+        android:gravity="center"
+        android:text="I can be dragged !" />
+
+    <TextView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_gravity="center"
+        android:layout_margin="10dp"
+        android:background="#ff00ff"
+        android:gravity="center"
+        android:text="I can be returned! 拖的越快，回弹越快" />
+
+    <TextView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_gravity="center"
+        android:layout_margin="10dp"
+        android:background="#44ff0000"
+        android:gravity="center"
+        android:text="I can edge tracked from right!" />
+
+</com.w4lle.viewdraghelperdemo.View.VDHReturnLayout>

@@ -1,4 +1,4 @@
-package com.w4lle.viewdraghelperdemo;
+package com.w4lle.viewdraghelperdemo.Fragment;
 
 import android.content.Context;
 import android.graphics.Color;
@@ -11,6 +11,8 @@ import android.view.ViewGroup;
 import android.widget.ArrayAdapter;
 import android.widget.ListView;
 import android.widget.TextView;
+
+import com.w4lle.viewdraghelperdemo.R;
 
 /**
  * Created by w4lle on 15-8-17.
@@ -58,7 +60,7 @@ public class LeftMenuFragment extends ListFragment {
         super.onListItemClick(l, v, position, id);
 
         if (mMenuItemSelectedListener != null) {
-            mMenuItemSelectedListener.menuItemSelected(((MenuItem) getListAdapter().getItem(position)).text);
+            mMenuItemSelectedListener.menuItemSelected(position, ((MenuItem) getListAdapter().getItem(position)).text);
         }
         mAdapter.setSelected(position);
     }
@@ -66,7 +68,7 @@ public class LeftMenuFragment extends ListFragment {
 
     //选择回调的接口
     public interface OnMenuItemSelectedListener {
-        void menuItemSelected(String title);
+        void menuItemSelected(int position, String title);
     }
 
     private OnMenuItemSelectedListener mMenuItemSelectedListener;
